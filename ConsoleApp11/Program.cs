@@ -15,7 +15,7 @@ public class box
             }
             if(Ai == 2)
             {
-                Box box = new X(InputFloat("底辺の長さを入力"), InputFloat("底面の高さを入力"), InputFloat("柱の高さを入力"));
+                X box = new X(InputFloat("底辺の長さを入力"), InputFloat("底面の高さを入力"), InputFloat("柱の高さを入力"));
                 Console.WriteLine("三角柱の表面積 = " + box.GetSurfaceC() + " 体積 = " + box.GetVolumeC());
                 break;
             }
